@@ -1,0 +1,22 @@
+{
+  "name": "vite-react-cli",
+  "version": "1.0.0",
+  "description": "基于vite跟react的脚手架工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create": "bin/create.js"
+  },
+  "keywords": [
+    "cli",
+    "vite",
+    "react"
+  ],
+  "author": "jayliang",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.2"
+  }
+}
