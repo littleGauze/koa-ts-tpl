@@ -1,5 +1,4 @@
-import { PROMPT, ENUMS } from "../../../src/constants";
-
+const { PROMPT, ENUMS } = require("../../../src/constants");
 const getContent = (params) => {
   return `
 let _BASE_URL = "/api";

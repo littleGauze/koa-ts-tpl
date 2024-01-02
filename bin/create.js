@@ -14,8 +14,6 @@ const run = async () => {
   console.log('projectPath', projectPath)
   //生成模版
   copyFolderSync(path.join(__dirname, "../template"), projectPath, prompts)
-  //生成ts配置文件
-  //生成eslint配置文件
   //生成package.json
 }
 

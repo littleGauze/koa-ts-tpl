@@ -2,6 +2,7 @@ const { PROMPT, ENUMS } = require("../../src/constants");
 
 const getContent = () => {
   return `
+import React from "react";
 import Router from "./Router";
 import "./index.less";
 function App() {

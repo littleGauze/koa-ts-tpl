@@ -23,7 +23,7 @@ export default defineConfig({
     ],
   ],
   ${
-    params[DEPS.AXIOS]
+    params[DEPS.AXIOS.key]
       ? `
   server: {
     proxy: {
