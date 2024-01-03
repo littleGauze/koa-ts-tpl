@@ -3,18 +3,12 @@ const PROMPT = {
   LANG: 'LANG',
   LIB: 'LIB',
   MOBX: 'MOBX',
-  ROUTER: 'ROUTER',
-  EASY_ROUTER: 'EASY_ROUTER',
   LINTER: 'LINTER'
 }
 const ENUMS = {
   [PROMPT.LANG]: {
     JavaScript: 'JavaScript',
     TypeScript: 'TypeScript'
-  },
-  [PROMPT.ROUTER]: {
-    Hash: 'Hash',
-    History: 'History'
   }
 }
 const YES = 'Y'
