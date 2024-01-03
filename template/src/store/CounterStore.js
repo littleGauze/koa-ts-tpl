@@ -1,8 +1,7 @@
 const { PROMPT, ENUMS } = require("../../../src/constants");
 
 const getContent = () => {
-  return `
-  import { makeAutoObservable } from "mobx";
+  return `import { makeAutoObservable } from "mobx";
 
   class Counter {
     constructor() {

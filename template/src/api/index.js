@@ -1,7 +1,6 @@
 const { PROMPT, ENUMS } = require("../../../src/constants");
 const getContent = (params) => {
-  return `
-let _BASE_URL = "/api";
+  return `let _BASE_URL = "/api";
 if (import.meta.env.PROD) {
 } else {
   _BASE_URL = "/api";

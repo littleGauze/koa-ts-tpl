@@ -1,8 +1,7 @@
 const { PROMPT, ENUMS } = require("../../../src/constants");
 
 const getContent = () => {
-  return `
-// 封装统一导出的store
+  return `// 封装统一导出的store
 import { createContext, useContext } from "react";
 // 两个store文件
 import counter from "./CounterStore";

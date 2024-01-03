@@ -1,8 +1,7 @@
 const { PROMPT, ENUMS } = require("../../../src/constants");
 
 const getContent = () => {
-  return `
-import { BASE_URL, axios } from ".";
+  return `import { BASE_URL, axios } from ".";
 export function getUserInfo() {
   return axios.get(
     \`\${BASE_URL}/getUserInfo\`

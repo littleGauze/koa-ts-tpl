@@ -4,7 +4,7 @@ const getContent = () => {
   return `
 import React from "react";
 import Router from "./Router";
-import "./index.less";
+import "./global.less";
 function App() {
   return (
     <div className="playlet-container">

@@ -1,7 +1,6 @@
 const { PROMPT, ENUMS } = require("../src/constants");
 
 const getContent = (params) => {
-  console.log(params)
   return `
 <!DOCTYPE html>
 <html lang="zh-CN">
