@@ -1,3 +1,3 @@
- - npm i -g @jayliang/vite-react-cli
+ - npm i -g koa-ts-tpl
 
- - npx @jayliang/vite-react-cli
+ - npx koa-ts-tpl

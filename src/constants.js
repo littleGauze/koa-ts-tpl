@@ -2,14 +2,14 @@ const PROMPT = {
   NAME: "NAME",
   LANG: "LANG",
   LIB: "LIB",
-};
+}
 const ENUMS = {
   [PROMPT.LANG]: {
     JavaScript: "JavaScript",
     TypeScript: "TypeScript",
   },
-};
-const YES = "Y";
+}
+const YES = "Y"
 const DEPS = {
   ANTD: {
     key: "antd",
@@ -27,25 +27,26 @@ const DEPS = {
     key: "lodash",
     version: "^4.17.21",
   },
-  MOBX: {
-    key: "mobx",
-    version: "^6.12.0",
-    extra: {
-      "mobx-react-lite": "^4.0.5",
-    },
-  },
-  VITE: {
-    key: "vite",
-    version: "^5.0.8",
-  },
   TS: {
     key: "typescript",
     version: "^5.2.2",
   },
-};
+  CRON: {
+    key: "node-cron",
+    version: "^3.0.2",
+  },
+  MOMENT: {
+    key: "moment",
+    version: "^2.29.4",
+  },
+  MOMENT_TIMEZONE: {
+    key: "moment-timezone",
+    version: "^0.5.43",
+  },
+}
 module.exports = {
   PROMPT,
   YES,
   DEPS,
   ENUMS,
-};
+}

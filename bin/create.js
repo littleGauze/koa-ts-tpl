@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const { PROMPT } = require("../src/constants");
-const { copyFolderSync,format } = require("../src/exec");
+const { copyFolderSync,format, changePackageName } = require("../src/exec");
 const { getPrompt } = require("../src/interactive")
 const path = require('path');
 const run = async () => {
@@ -13,6 +13,10 @@ const run = async () => {
   copyFolderSync(path.join(__dirname, "../template"), projectPath, prompts)
   // 代码美化
   await format(projectPath)
+
+  // 修改包名
+  changePackageName(projectPath, projectName)
+
   console.log(`🚀 项目地址:${projectPath}`)
 }
 

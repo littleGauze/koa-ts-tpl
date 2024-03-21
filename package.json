@@ -1,7 +1,7 @@
 {
-  "name": "@jayliang/vite-react-cli",
+  "name": "koa-ts-tpl",
   "version": "1.0.0",
-  "description": "基于vite跟react的脚手架工具",
+  "description": "koa typescript template",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
@@ -14,10 +14,10 @@
   },
   "keywords": [
     "cli",
-    "vite",
-    "react"
+    "koa template",
+    "boilerplate"
   ],
-  "author": "jayliang",
+  "author": "littleGauze",
   "license": "MIT",
   "dependencies": {
     "inquirer": "^8.2.2",
